@@ -1,17 +1,42 @@
 # Built application files
 *.apk
 *.ap_
+*.aab  # Android App Bundle
 
 # Java class files
 *.class
 
 # Gradle files
-/gradle/
-/build/
+.gradle/
+build/
+captures/  # Screenshot captures
+outputs/    # Output directories for build types
 
 # Local configuration file (for Android Studio)
 .idea/
 *.iml
 local.properties
-.DS_Store
- 
+
+# Miscellaneous files
+*.log      # Log files
+*.tmp      # Temporary files
+*.bak      # Backup files
+*.swp      # Swap files created by text editors
+*.orig     # Original files from merges or patches
+
+# Operating system files
+.DS_Store          # macOS specific
+Thumbs.db          # Windows specific
+
+# NDK
+obj/               # NDK build output
+jni/               # Native code directories
+*.so               # Shared libraries
+
+# External libraries
+libs/              # External libraries directory
+
+# Android Studio specific files
+*.hprof            # Heap dumps
+*.jar              # Java archives
+*.dex              # Dalvik Executable files
