@@ -1,0 +1,17 @@
+# Built application files
+*.apk
+*.ap_
+
+# Java class files
+*.class
+
+# Gradle files
+/gradle/
+/build/
+
+# Local configuration file (for Android Studio)
+.idea/
+*.iml
+local.properties
+.DS_Store
+ 
